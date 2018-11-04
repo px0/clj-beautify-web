@@ -1,4 +1,4 @@
-(defproject px0/beautify-web "0.1.0"
+(defproject px0/beautify-web "0.1.1"
   :description "Make HTML/CSS/JS strings pretty like you always wanted!"
   :url "https://github.com/px0/clj-beautify-web"
   :license {:name "Eclipse Public License"

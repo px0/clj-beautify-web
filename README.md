@@ -6,13 +6,16 @@ If you have spent time trying to find the magical combination of [JTidy](http://
 
 ## Install
 
+[![Clojars Project](https://img.shields.io/clojars/v/px0/beautify-web.svg)](https://clojars.org/px0/beautify-web)
+
+
 Leiningen/Boot
 
-`[px0/beautify-web "0.1.0"]`
+`[px0/beautify-web "0.1.1"]`
 
 Clojure CLI/deps.edn
 
-`px0/beautify-web {:mvn/version "0.1.0"}`
+`px0/beautify-web {:mvn/version "0.1.1"}`
 
 ## Usage
 
