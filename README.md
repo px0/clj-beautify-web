@@ -4,6 +4,16 @@ A clojure wrapper for the [Beautify-Web](https://github.com/beautify-web/js-beau
 
 If you have spent time trying to find the magical combination of [JTidy](http://jtidy.sourceforge.net/) options that will make your markup pretty without messing something up, or fought with [pretty-printing XML](https://snipplr.com/view/30351/pretty-printer-xml-in-clojure/), or gotten frustrated at the results of "prettify HTML java" on StackOverflow, then this library is for you. I feel your pain.
 
+## Install
+
+Leiningen/Boot
+
+`[px0/beautify-web "0.1.0"]`
+
+Clojure CLI/deps.edn
+
+`px0/beautify-web {:mvn/version "0.1.0"}`
+
 ## Usage
 
 This library exposes 3 functions:
