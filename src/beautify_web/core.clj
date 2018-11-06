@@ -5,9 +5,9 @@
 (def js-engine
   (let [nashorn (.. (ScriptEngineManager.) (getEngineByName "nashorn"))]
     (.eval nashorn "var window = this;")
-    (.eval nashorn (slurp (io/resource "beautify.js")))
-    (.eval nashorn (slurp (io/resource "beautify-css.js")))
-    (.eval nashorn (slurp (io/resource "beautify-html.js")))
+    (.eval nashorn (slurp (io/resource "beautify-1.8.8.js")))
+    (.eval nashorn (slurp (io/resource "beautify-css-1.8.8.js")))
+    (.eval nashorn (slurp (io/resource "beautify-html-1.8.8.js")))
     nashorn))
 
 (defn invoke-window-method
